@@ -1,0 +1,10 @@
+POST http://localhost:5000/api/v1/cases
+Content-Type: application/json
+
+{
+  "title": "Defective Smartphone Delivery",
+  "issue_category": "DEFECTIVE_PRODUCT",
+  "merchant_name": "ABC E-Commerce Store",
+  "claimed_amount": 24999.00,
+  "user_narrative": "I ordered a phone 5 days ago, but the screen won't turn on. The seller refuses to accept a replacement."
+}
