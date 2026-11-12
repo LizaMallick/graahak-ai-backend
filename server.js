@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json());
+app.use(express.urlencoded({ extended: true })); // Added to parse form-urlencoded request bodies
 
 // API Routes
 app.use('/api/v1/cases', caseRoutes);
